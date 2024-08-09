@@ -1,0 +1,8 @@
+h = float(input('Informe as horas:'))
+m = float(input('Informe os minutos:'))
+a = (h*60)
+b = (a+m)
+c = (m*60)
+print('Horas em minutos: {}'.format(a))
+print('Soma total dos minutos: {}'.format(b))
+print('Minutos em segundos:{}'.format(c))

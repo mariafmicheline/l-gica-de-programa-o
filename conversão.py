@@ -1,0 +1,10 @@
+q = float(input('Informe a quantia que você possue em reais:'))
+d = 1.80
+m = 2.00
+l = 1.57
+dolares = q * d
+alemão = q * m
+libra = q * l
+print(' Doláres: {} reais = {} '.format(q,dolares))
+print('Marco alemão: {} reais = {}'.format(q,alemão))
+print('Libra: {} reais = {}'.format(q,libra))
